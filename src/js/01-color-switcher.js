@@ -6,8 +6,8 @@ function getRandomHexColor() {
 
 const refs = {
   body: document.body,
-  btnStart: document.querySelector('button[data-start = "start"]'),
-  btnStop: document.querySelector('button[data-stop = "stop"]'),
+  btnStart: document.querySelector('button[data-start]'),
+  btnStop: document.querySelector('button[data-stop]'),
 };
 
 const INTERVAL_DELAY = 1000;
