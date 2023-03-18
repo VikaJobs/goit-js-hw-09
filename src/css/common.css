@@ -16,3 +16,54 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+  width: 600px;
+  height: 50px;
+
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #3b3b3b;
+
+  background-color: rgba(174, 128, 203, 0.6);
+  border-radius: 5px;
+  border: none;
+
+  transition: 250ms;
+}
+
+#datetime-picker:focus {
+  outline: 3px solid rgb(159, 128, 203);
+  border: 3px solid #fff;
+  background-color: rgb(159, 128, 203);
+}
+
+.timer {
+  padding: 20px 30px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: #3b3b3b;
+
+  background-color: rgba(174, 128, 203, 0.6);
+
+  border-radius: 5px;
+}
+
+.value {
+  position: relative;
+  padding: 3px;
+  background-color: rgb(151, 128, 203);
+  border-radius: 5px;
+  font-size: 24px;
+}
